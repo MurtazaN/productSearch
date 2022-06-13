@@ -7,7 +7,7 @@ const PORT = 10000
 app.use(cors())
 
 let products = {
-    1000:
+    "1000":
     {
     "title": "NKJV Evidence Bible, Hardcover",
     "isbn13": "9780882705255",
@@ -17,7 +17,7 @@ let products = {
     "link": "https://www.christianbook.com/apps/product?item_no=705255",
     "customer_rating": 4.87
   },
-  1001:
+  "1001":
   {
     "title": "NKJV Evidence Bible, Duo-Tone Brown/Beige",
     "isbn13": "9780882705071",
