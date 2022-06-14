@@ -13,6 +13,6 @@ async function makeReq(){
   document.querySelector('#bookImage').src = data.image
   document.querySelector('#bookId').textContent = "Book ID: " + data.id
   document.querySelector('#bookLink').href = data.link
-  document.querySelector('#bookLink').innerText = "Book link: "
+  document.querySelector('#bookLink').innerText = "Book link"
   document.querySelector('#bookCustomer_rating').textContent = "Customer Rating: " + data.customer_rating
 }
